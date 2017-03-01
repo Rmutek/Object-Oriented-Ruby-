@@ -6,9 +6,9 @@
 #puts "#{ice_cream1[:flavor]} ice cream in a #{ice_cream1[:cone]} with #{ice_cream1[:topping]} is $ #{ice_cream1[:price]}"
 #puts "#{ice_cream1[:flavor]} ice cream in a #{ice_cream1[:cone]} with #{ice_cream1[:topping]} is $ #{ice_cream1[:price]}"
 
-class Orders
-  attr_reader :flavor, :container
-  attr_writer :topping, :price
+#class Orders
+  #attr_reader :flavor, :container
+  #attr_writer :topping, :price
 
   def initialize(flavor, container, topping, price) 
     @flavor = flavor
